@@ -28,7 +28,7 @@ Dependencies
 ### 타임리프 기본 기능
 #### 타임리프 사용 선언
 아래처럼 선언을 해야 타임리프를 사용할 수 있따.
-<pre><code><html xmlns:th="http://www.thymeleaf.org"/></code></pre>
+```<html xmlns:th="http://www.thymeleaf.org"/>```
 
 #### 기본 표현식
 타임리프가 제공하는 기본 표현식 목록이다.
