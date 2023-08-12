@@ -1,0 +1,29 @@
+### 성공적인 요청
+POST http://localhost:8080/validation/api/items/add
+Content-Type: application/json
+
+{
+  "itemName" : "스프링",
+  "price" : 1000,
+  "quantity" : 1000
+}
+
+### 실패하는 요청 - 공백, 잘못된 숫자
+POST http://localhost:8080/validation/api/items/add
+Content-Type: application/json
+
+{
+  "itemName" : "",
+  "price" : 100,
+  "quantity" : 10
+}
+
+### 실패하는 요청 - 타입오류
+POST http://localhost:8080/validation/api/items/add
+Content-Type: application/json
+
+{
+  "itemName" : "",
+  "price" : "스프링",
+  "quantity" : 10
+}
