@@ -13,20 +13,18 @@ import javax.validation.constraints.NotNull;
 @Data
 public class Item {
 
-    @NotNull // 수정 요구사항
+//    @NotNull // 수정 요구사항
     private Long id;
 
 //    @NotBlank(groups = {SaveCheck.class, UpdateCheck.class})
-    @NotBlank
+//    @NotBlank
     private String itemName;    // A
 
 //    @NotNull
-    @NotNull
 //    @Range(min = 1000, max=1000000,groups = {SaveCheck.class, UpdateCheck.class})
-    @Range(min = 1000, max=1000000)
     private Integer price;      // A, typeMismatch 이런 경우 빈벨리데이션 적용안됨.
 
-    @NotNull
+//    @NotNull
 //    @Max(value = 9999)
     private Integer quantity;
 
