@@ -8,3 +8,4 @@
 ### 섹션 3. message 메시지, 국제화
 ### 섹션 4. validation 검증
 ### 섹션 5. Bean Validation 빈 검증
+### 섹션 6. 로그인 처리1 - 쿠키, 세션
