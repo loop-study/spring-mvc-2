@@ -23,6 +23,8 @@ class SessionManagerTest {
         MockHttpServletResponse response = new MockHttpServletResponse();
 
         Member member = new Member();
+        member.setLoginId("test");
+        member.setPassword("test!");
         sessionManager.createSession(member, response);
 
         // when

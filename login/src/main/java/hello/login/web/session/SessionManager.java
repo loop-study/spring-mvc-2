@@ -1,5 +1,6 @@
 package hello.login.web.session;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
 import javax.servlet.http.Cookie;
@@ -56,7 +57,6 @@ public class SessionManager {
     private Cookie findCookie(HttpServletRequest request, String cookieName) {
         if (request.getCookies() == null) {
             return null;
-
         }
 
         return Arrays.stream(request.getCookies())
