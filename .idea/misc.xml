@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/beanvalidation" />
     <file type="web" url="file://$PROJECT_DIR$/login" />
+    <file type="web" url="file://$PROJECT_DIR$/login2" />
     <file type="web" url="file://$PROJECT_DIR$/message" />
     <file type="web" url="file://$PROJECT_DIR$/thymeleaf-basic" />
     <file type="web" url="file://$PROJECT_DIR$/validation" />
